@@ -66,6 +66,7 @@ namespace WindowsFormsApp10
                     fs.Write(bytes, 0, bytes.Length);
                 }
             }
+            MessageBox.Show("Saved!");
 
 
         }
@@ -151,6 +152,7 @@ namespace WindowsFormsApp10
             PersonList.Enabled = true;
             button2.Enabled = true;
             button3.Enabled = true;
+            MessageBox.Show("Saved!");
         }
     }
 }
